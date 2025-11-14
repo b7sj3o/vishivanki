@@ -270,9 +270,10 @@ section .image {
 	line-height: 13px;
 	text-transform: uppercase;
 	position: absolute;
-	top: 46px;
+	top: 70px;
 	right: 0;
 }
+
 
 .offer_section.offer1 .info_block .discount {
 	background-image: url(https://stone.tik.st-wear.site/images/offer1__discount_bg.png);
@@ -296,6 +297,7 @@ section .image {
 	top: 42px;
 	left: 21px;
     color:#fff;
+	font-size: 12px;
 }
 
 .offer_section.offer1 .price_block {
