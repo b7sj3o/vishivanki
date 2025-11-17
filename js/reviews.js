@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	var basePath = 'my_images/reviews/';
-	var maxScan = 50; // scans 1.jpg .. 50.jpg
+	var maxScan = 16; // scans 1.jpg .. 50.jpg
 	var initiallyVisible = 5;
 	var container = document.getElementById('reviewsImages');
 	if (!container) return;
