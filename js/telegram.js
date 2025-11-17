@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // Simple Telegram sender for the order form
 (function () {
 	var form = document.getElementById('order_form');
