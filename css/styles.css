@@ -1,5 +1,11 @@
 /* styles */
 
+:root {
+	--accent: #956c56;
+	--accent-rgb: 123, 75, 42;
+	--on-accent: #ffffff;
+}
+
 body {
 	min-width: 480px;
 	background: #ddd;
@@ -2463,4 +2469,129 @@ select::-ms-expand {
     padding: 10px 0;
     font-size: 24px;
     margin: 0 30px;
+}
+
+/* Accent theme overrides */
+h2.title span,
+.dark_theme h2.title span {
+	color: var(--accent);
+}
+
+.button {
+	background: var(--accent);
+	-webkit-box-shadow: 0 0 0 10px rgba(var(--accent-rgb), 0.349);
+	-moz-box-shadow: 0 0 0 10px rgba(var(--accent-rgb), 0.471);
+	box-shadow: 0 0 0 10px rgba(var(--accent-rgb), 0.169);
+	color: var(--on-accent);
+}
+
+.yellow_theme,
+.reviews4_section {
+	background-color: var(--accent);
+	color: var(--on-accent);
+}
+
+.offer_section.offer1 .main_title,
+.offer_section.offer2 .main_title,
+.offer_section.offer3 .main_title {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+
+.offer_section.offer1 .price_new,
+.offer_section.offer2 .price_item.new,
+.offer_section.offer3 .price_item.new {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+
+.offer_section.offer1 .price_new:before {
+	border-top-color: var(--accent);
+}
+.offer_section.offer1 .price_new:after {
+	border-bottom-color: var(--accent);
+}
+.offer_section.offer3 .price_item.old:after {
+	border-top-color: var(--accent);
+}
+.offer_section.offer3 .price_item.new:before {
+	border-bottom-color: var(--accent);
+}
+
+.offer_section .timer_block .count span {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+
+.offer_section .products_count b {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+
+.offer_section.offer1 ul li:before {
+	border-color: var(--accent);
+	background: var(--accent);
+}
+.offer_section.offer2 ul li:before {
+	border-top-color: var(--accent);
+}
+
+.list1.marker1 li:before {
+	border-top-color: var(--accent);
+}
+.list2.marker2 li:before {
+	border-color: var(--accent);
+	background: var(--accent);
+}
+
+.benefits_list7 .benefit_item:nth-child(even),
+.benefits_list7 .benefit_item {
+	color: var(--on-accent);
+}
+.benefits_list7 .benefit_item:nth-child(even) {
+	background: var(--accent);
+}
+
+.comparison_block .titles_block h4:last-child {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+
+.vote_section .question_item:nth-child(3) .line {
+	background: var(--accent);
+}
+.vote_section .question_item:nth-child(3) .question_text:before {
+	background: var(--accent);
+}
+
+.opinion1_section:before {
+	border-top-color: var(--accent);
+}
+.opinion1_section .author_block .name {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+.opinion1_section .author_block .name:after {
+	border-top-color: var(--accent);
+}
+
+.opinion2_section h2.title span {
+	color: var(--accent);
+}
+.opinion2_section .author_block .name {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+.opinion2_section .author_block .name:after {
+	border-top-color: var(--accent);
+}
+
+.reviews1_section:before {
+	border-top-color: var(--accent);
+}
+
+.prepay,
+.giftsection {
+	background-color: var(--accent);
+	color: var(--on-accent);
 }
