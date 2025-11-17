@@ -5,8 +5,8 @@
 
 	// Configure your Telegram bot token and chat id here
 	// Example: const TELEGRAM_BOT_TOKEN = '123456:ABC...'; const TELEGRAM_CHAT_ID = '-1001234567890';
-	var TELEGRAM_BOT_TOKEN = window.TELEGRAM_BOT_TOKEN || '6406654898:AAHX_WXMx1fQPYj2YxjcuSyWHIDoMSdRY3I';
-	var TELEGRAM_CHAT_ID = window.TELEGRAM_CHAT_ID || '928132950';
+	var TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+	var TELEGRAM_CHAT_ID = process.env.MY_SECRET.TELEGRAM_CHAT_ID;
 
 	function buildMessage(data) {
 		var lines = [];
